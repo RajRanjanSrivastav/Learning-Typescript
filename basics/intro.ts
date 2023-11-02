@@ -21,3 +21,21 @@ export default name;
 
 
 // in typescript we get errors if we write something wrong syntax but in javascript..... there is nothing ... and it might be run 
+
+
+
+// if we declare a variable in typescript without any types the it automatically take it as any types
+
+let car;
+
+car = "alto";
+car = 3;
+console.log(car);
+
+
+// and use any if we didn't want to type  checking  so use any......
+let bike : any;
+bike=3;
+bike="honda"
+
+console.log(bike);
